@@ -5,7 +5,7 @@ import time
 time.sleep(5)
 
 try:
-    for _ in range(17):
+    while True:
         # Click at the current mouse position
         pyautogui.tripleClick()
         # Wait for a specified interval
